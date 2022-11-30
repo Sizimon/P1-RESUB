@@ -47,7 +47,17 @@ h2 {
 
 #main-image {
     margin: 0;
-    height: 40vh;
+    height: 60vh;
     background: url(./images/ice.jpeg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-caption {
+    color: #F5F5F5;
+    font-style: italic;
+    font-size: 3em;
+    border: 2px solid #F5F5F5;
 }
