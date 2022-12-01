@@ -11,6 +11,10 @@ body {
     background-color: #F5F5F5;
 }
 
+p {
+    font-size: 1.25rem;
+}
+
 /* Header Stylings */
 
 h1 {
@@ -38,6 +42,15 @@ h3 {
 }
 
 /* Nav */
+
+a {
+    text-decoration: none;
+    color: #28272D;
+}
+
+a:hover {
+    color: orange;
+}
 
 #menu {
     list-style-type: none;
@@ -81,4 +94,42 @@ h3 {
 .info-container div {
     width: 25%;
     margin: 1em;
+}
+
+.info-container div:hover {
+    transition: .5s;
+    border: 2px solid orange;
+}
+
+/* Dive Section */
+
+#dive p {
+    margin: 0 5vw;
+}
+
+.video {
+    margin-top: 5vh;
+    height: 60vh;
+    width: 80vw;
+}
+
+.box {
+    border: 2px solid #28272D;
+    padding: 1em;
+}
+
+/* Commiting Section */
+
+#commiting p {
+    margin: 0 5vw
+}
+
+#form-background {
+    margin: 0;
+    height: 60vh;
+    background: url(./images/ice.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
