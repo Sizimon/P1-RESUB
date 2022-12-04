@@ -128,12 +128,12 @@ a:hover {
 #form-background {
     margin: 0;
     height: 60vh;
-    background: url(./images/ice2.webp);
+    background: url(./images/ice3.jpeg);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 4px solid #28272D;
+    opacity: 0.95;
 }
 
 form {
@@ -155,6 +155,7 @@ form input {
     font-size: 2rem;
     color: orange;
     font-style: italic;
+    text-align: center;
 }
 
 form button {
@@ -169,3 +170,23 @@ form button {
 form button:hover {
     border-bottom: 1px solid orange;
 }
+
+/* Socials Section */
+
+#social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social li {
+    display: inline;
+    margin: 10vw;
+    font-size: 2rem;
+}
+
+#social a:hover {
+    color: orange;
+    transition: .2s;
+}
+
+
