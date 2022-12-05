@@ -188,6 +188,20 @@ form button:hover {
     transition: .2s;
 }
 
+/* Back to Top Button */
+#top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 5em;
+    color: orange;
+}
+
+#top:hover {
+    transition: 0.3s;
+    color: #28272D;
+}
+
 /* MEDIA QUERIES MOBILE */
 @media only screen and (min-width: 280px) and (max-width: 480px) {
     h1 {
