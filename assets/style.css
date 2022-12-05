@@ -189,7 +189,7 @@ form button:hover {
 }
 
 /* MEDIA QUERIES MOBILE */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 280px) and (max-width: 480px) {
     h1 {
         font-size: 2em;
     }
@@ -211,6 +211,47 @@ form button:hover {
     form input {
         font-size: 1rem;
     }
+    #dive iframe {
+        height: 40vh;
+    }
 }
 
+/* MEDIA QUERIES TABLET */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .info-container div {
+        width: 40%;
+    }
+}
+
+/* MEDIA QUERIES LARGE DESKTOP */
+@media only screen and (min-width: 1921px) and (max-width: 3840px) {
+    h1 {
+        font-size: 10em;
+    }
+    h2 {
+        font-size: 6em;
+    }
+    h3 {
+        font-size: 4em;
+    }
+    p {
+        font-size: 2.5em;
+    }
+    #menu {
+        font-size: 4em;
+    }
+    #social li {
+        font-size: 6em;
+    }
+    form label {
+        font-size: 6em;
+    }
+    form input {
+        font-size: 4em;
+    }
+    form button {
+        font-size: 4em;
+    }
+
+}
 
