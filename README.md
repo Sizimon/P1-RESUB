@@ -1,108 +1,112 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# UNDER THE ICE
 
-Welcome Sizimon,
+Under The Ice is a website designed to draw users into the practice of using Cold Therapy to see benefits in their day to day life. This is projected with a neutral color scheme and clean displays of information.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website is structured into 5 segments:
+- The landing part of the page is native to the user and consists simply of a header, navigation section, and main image with a caption to subtly tell the user what the page is about.
+- The science section includes a variety of benefits created by cold exposure, this lets the user read the benefits and see if it is something the user would like to accomplish. This draws a particular reader profile which aligns with the targetted audience.
+- The Dive section which includes a small descriptive way of how to start practicing cold therapy at home, along with a supportive video which contains content of people describing experience with cold bathing.
+- Committing section is a section which provides a small bit of text inspiring the user to push through and start practicing what the website is projecting, essentially a small hook to get users to sign up to the news letter.
+- The footer which simply contains social media links that lead to the social media page, and copyright information.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+The Design of the Webpage:
+- The website is designed with a neutral, calming but popping color scheme. The hints of orange bring attention to the user and is used on critical website functions such as highlighting important content, links or buttons. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+To view the deployed project [click here.]()
 
-`python3 -m http.server`
+![Responsive Photo](readme-images/)
 
-A blue button should appear to click: _Make Public_,
+## UXD:
 
-Another blue button should appear to click: _Open Browser_.
+Website intentions:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ 
+## FOR THE USER: 
+ 
 
-A blue button should appear to click: _Make Public_,
+## FOR THE DEVELOPER:
+ 
+### Process:
 
-Another blue button should appear to click: _Open Browser_.
+- 
+- 
+- 
+- 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# PAGE FEATURES:
 
-To log into the Heroku toolbelt CLI:
+## HEADER/NAV:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Navbar](readme-images/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+## MAIN IMAGE:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Main Image](readme-images/)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## SCIENCE SECTION: 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Science](readme-images/)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## THE DIVE SECTION:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Dive](readme-images/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## COMMITTING (SIGNUP):
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Signup](readme-images/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## SOCIALS:
 
-## FAQ about the uptime script
+![Socials](readme-images/)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### DESIGN CHANGES:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### FUTURE FEATURES: 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+# TESTING: 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## HTML:
 
-**Can I opt out?**
+![HTML VALIDATION](readme-images/)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## CSS:
 
-**Anything more?**
+![CSS VALIDATION](readme-images/)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+## BUGS:
+
+
+# SITE DEPLOYMENT:
+The site was created on GitPod first, then deployed by GitHub Pages, to deploy the site:
+- In git hub repository, click settings.
+- On the navigation bar, click pages.
+- Change drop down menu in branch to main.
+- Once Deployed it will display a link to the site.
+
+
+# CREDITS:
+
+## MEDIA:
+
+## CODE:
+
+Some code was helped by the love running header section video. <br>
+Favicon was installed with the help from [here](https://www.youtube.com/watch?v=kEf1xSwX5D8).
